@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+:root {
+    --primary-color: #8553ad;
+    --secondary-color: #e9d6ff;
+
+}
+
+html,
+body {
+    height: 100vh;
+    margin: 0;
+}
+
+
+body {
+    background-image: url(https://live.staticflickr.com/65535/54301172330_4190f881b2_o.png);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+}
+
+.home {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+
+.left-bar {
+    background-color: var(--primary-color);
+    width: 33.75rem;
+    height: 100vh;
+}
+
+.saudation {
+    padding: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: var(--secondary-color);
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.75em;
+}
+
+.saudation img {
+    padding-right: 10px;
+}
+
+.presentation {
+    flex-grow: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.presentation img {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.name {
+    font-family: "Alfa Slab One", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    line-height: 0.9;
+}
+
+#fics {
+    font-size: 8.125em;
+    color: var(--primary-color);
+}
+
+#verse {
+    font-size: 9.375em;
+    text-shadow: 0px 0px 90px var(--primary-color);
+    -webkit-text-stroke: 1.5px var(--primary-color);
+}
+
+.slogan-box {
+    background-color: var(--primary-color);
+    border-radius: 50px;
+    display: inline-block;
+    text-align: center;
+}
+
+.slogan {
+    font-family: "Montserrat", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.75em;
+}
