@@ -9,29 +9,27 @@
 <body>
     <div class="home">
         <div class="left-bar">
-            <div class="infos">
+            <div class="infos cadastro">
                 <div class="saudation">
                 <img src="https://live.staticflickr.com/65535/54300948554_348e4fa3ff_o.png">
                 <p>Área de Membros</p>
                 </div>
                 <div class="welcome">
-                <p id="">Bem-vindo(a)!</p> <a href="cadastro.html">Cadastre-se</a>
+                <p id="">Faça seu cadastro e embarque nesse universo!</p> 
                 </div>
                 <div class="inputs">
+                    <label for="user_name">Nome do usuário</label>
+                    <input type="text" id="user_name" name="user_name" required />
                     <label for="email">E-mail</label>
                     <input type="email" id="email" name="email" required />
                     <label for="senha">Senha</label>
                     <input type="password" id="senha" name="email" required  />
-                    <div class="checkbox">
-                        <input type="checkbox" id="remember" />
-                        <label for="remember">Remember me</label>
-                    </div>
+                    <label for="senha">Confirme sua senha</label>
+                    <input type="password" id="senha" name="email" required  />
                     <button class="button" id="login" type="button">
-                    Login
+                    Cadastre-se!
                     </button>
-                    <button class="button" id="google" type="button">
-                    Login com Google
-                    </button>
+                    <a href="login.html">Já possui uma conta? Entrar</a>
                 </div>
             </div>
 

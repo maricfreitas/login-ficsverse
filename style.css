@@ -62,6 +62,11 @@ button {
     font-family: "Poppins", serif;
 }
 
+.cadastro {
+    margin: auto;
+    padding: 2rem;
+}
+
 .saudation {
     color: var(--secondary-color);
     display: flex;
@@ -145,10 +150,16 @@ button {
 }
 
 #email,
-#senha {
+#senha,
+#user_name {
     margin-bottom: 24px;
     border: none;
     border-radius: 4px;
+}
+
+.inputs a {
+    display: flex;
+    justify-content: center;
 }
 
 .checkbox {
